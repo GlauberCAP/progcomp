@@ -1,0 +1,32 @@
+body {
+    /* fonte do texto */
+    font-family: Arial, sans-serif;
+    background-color: rgb(106, 108, 235);
+    /* usa modelo FlexBox, conceito de caixa para posicionamento */
+    display: flex;
+    justify-content: center; /* centraliza na horizontal */
+    height: 100vh; /* Altura da página 100% do tamanho da página */
+    align-items: center; /* centraliza na vertical */
+}
+.container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 4px 8px 8px;
+}
+/*ao passar o mouse em cima do botão*/
+button:hover{
+Background-color: rgb(190, 183, 183); 
+
+}
+button {color:rgb(0, 0, 0);
+    border:none;
+    padding: 8px; 18px;
+}
+.Foto{
+    border-radius: 50%;
+    width:100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
