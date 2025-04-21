@@ -37,7 +37,7 @@ function calcular(){
             pontosKit += 0 
         }
     }
-    alert(pontosKit)
-    soma = soma+pontosKit
+alert(pontosKit);
+    soma = soma + pontosKit
     document.getElementById("soma").innerHTML = soma.toFixed(2);
 }
